@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+    padding-left: 100px;
+}
+.product-title .name {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 20px;
+    color: rgb(18 133 234)
+}
+
+.product-title .sold,
+.product-title .sold2,
+.product-title .sold3 {
+    position: relative;
+    text-align: center;
+    color: red;
+}
+
+.product-title .sold {
+    top: -155px;
+    right: 40px;
+}
+.product-title .sold2 {
+    top: -135px;
+}
+
+.product-title .sold3 {
+    top: -160px;
+    right: -20px;
+}
+
+.product-title .sold4 {
+    color: red;
+    position: relative;
+    top: -140px;
+    display: block;
+    text-align: center;
+}
+
+.product-title .sold5 {
+    color: red;
+    position: relative;
+    top: -180px;
+    display: block;
+    text-align: center;
+}
+
+header {
+    background-color: #0d1b2a;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+    margin: o;
+}
+
+.h {
+    text-align: center;
+    color: rgb(18 133 234);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 60px;
+    background-color: rgb(238, 230, 230);
+    display: block;
+    margin: 0;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(18 133 234);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(18 133 234);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #1b263b;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card .icon {
+    color: rgb(18 133 234);
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color: rgb(18 133 234);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.products .content{
+    margin-top: 30px;
+    background-color: rgb(238, 230, 230);
+    margin: 0;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    position: relative;
+}
+
+.product-card:hover {
+   transform: scale(1.1);
+}
+
+.product-card:hover .product-image {
+    opacity: 0.9;
+ }
+
+.product-image img{
+    width: 100%
+}
+
+.product-info {
+    padding: 1em;
+}
+
+.product-category {
+    font-size: 0.8em;
+    color: #000;
+}
+
+.product-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: rgb(18 133 234);
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    bottom: 10px;
+}
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+    }
+}
